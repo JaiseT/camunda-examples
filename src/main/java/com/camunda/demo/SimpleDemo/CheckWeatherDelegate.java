@@ -13,7 +13,7 @@ public class CheckWeatherDelegate implements JavaDelegate {
 		Random rando = new Random();
 
 		execution.setVariable("name", "Jaise");
-		execution.setVariable("isWeatherOk", rando.nextBoolean());
+		execution.setVariable("weatherOk", rando.nextBoolean());
 		
 	}
 
